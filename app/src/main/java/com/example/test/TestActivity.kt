@@ -64,6 +64,4 @@ class TestActivity : AppCompatActivity() {
         }
     }
 
-//huong
-    //shunning
 }
