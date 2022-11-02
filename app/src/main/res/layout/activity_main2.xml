@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="mainActivity2"
+            type="com.example.test.MainActivity2" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2">
+
+        <TextView
+            android:id="@+id/tvHienthi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hnghghghghghng"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bt_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            tools:layout_editor_absoluteY="104dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
