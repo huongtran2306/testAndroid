@@ -32,7 +32,7 @@
             android:name=".Test2Activity"
             android:exported="false"/>
 
-        <activity android:name=".thirdActivity"
+        <activity android:name=".ThirdActivity"
             android:exported="false"/>
 
 

@@ -28,10 +28,16 @@ class MainActivity : AppCompatActivity() {
         binding.btLogin.setOnClickListener {
 //           Toast.makeText(baseContext, "Hello kitty", Toast.LENGTH_LONG).show()
             val hangso = binding.etMk.text.toString()
-            val soNguyen = binding.etSdt.text.toString().toInt()
+            val soNguyen = try {
+                binding.etSdt.text.toString().toInt()
+            }catch (e:Exception){
+                1
+            }
             val intent = Intent(baseContext, TestActivity::class.java)
+
             intent.putExtra("hangso", hangso)
             intent.putExtra("songuyen", soNguyen)
+
             startActivity(intent)
         }
 
